@@ -8,5 +8,4 @@
   apt:
     deb: /home/ubuntu/wkhtmltopdf.deb
 - name: run apt-get install -f to install additional deps
-  apt:
-    force: yes
+  command: "sudo apt-get install -f"
