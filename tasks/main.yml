@@ -1,0 +1,12 @@
+---
+# tasks file for wkhtmltopdf
+- name: get deb pkg
+  get_url:
+    url: http://downloads.sourceforge.net/project/wkhtmltopdf/0.12.2.1/wkhtmltox-0.12.2.1_linux-precise-amd64.deb
+    dest: /home/ubuntu/wkhtmltopdf.deb
+- name: run dpkg -i install
+  apt:
+    deb: /home/ubuntu/wkhtmltopdf.deb
+- name: run apt-get install -f to install additional deps
+  apt:
+    force: yes
