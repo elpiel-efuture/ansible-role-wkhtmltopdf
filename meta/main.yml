@@ -1,16 +1,16 @@
 ---
 galaxy_info:
-  author: jnakatsui
-  description: 
-  company: your company (optional)
-  license: MIT
-  min_ansible_version: 1.7
-  platforms:
-    - name: Ubuntu
-       versions:
-         - precise
-         - trusty
-  categories:
-  - cloud
-  - web
+author: jnakatsui
+description: 
+company: your company (optional)
+license: MIT
+min_ansible_version: 1.7
+platforms:
+  - name: Ubuntu
+     versions:
+       - precise
+       - trusty
+categories:
+- cloud
+- web
 dependencies: []
