@@ -1,7 +1,7 @@
 wkhtmltopdf
 ===========
 
-Installs wkhtmltopdf
+Installs wkhtmltopdf for ***Ubuntu*** (*precise and trusty*) machines
 
 Requirements
 ------------
